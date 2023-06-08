@@ -1,0 +1,31 @@
+server:
+  port: 18121
+
+
+#mysql数据库配置
+datasource:
+  driverName: mysql
+  host: localhost
+  port: 3306
+  database: fitness
+  username: storm
+  password: 1
+
+
+#jwt密钥
+jwt:
+  JwtKey: fitness-love
+
+
+#time格式
+timeLayout: "2006-01-02 15:04:05"
+
+
+#七牛云
+AccessKey: EOVEsbfdrM49fWAac83CWyZGxWi3hGu9V-icg0tL
+
+SecretKey: j2le0oWF_XhZuZEzyX2Gjbyz-xCmAnTVlfyXYJ0n
+
+Bucket: fitnessa
+
+QiniuServer: http://rvm0q9wvd.bkt.clouddn.com/
